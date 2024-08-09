@@ -1,0 +1,80 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-size: 14px;
+  height: 100vh; /* Ensure it takes full viewport height */
+  margin-left:  45rem;
+  display: block;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 50px;
+}
+
+h {
+  color: rgba(28, 49, 119, 1);
+  font-family: 'SF Pro Display', sans-serif;
+  font-weight: bold;
+  font-size: 48px;
+  opacity: 1;
+  text-align: center;
+  margin: 0; /* Remove default margin */
+}
+
+p {
+  width: 604px;
+  color: rgba(39, 68, 149, 0.69);
+  font-family: 'SF Pro Display', sans-serif;
+  font-weight: normal;
+  font-size: 24px;
+  opacity: 1;
+  text-align: center;
+  margin: 0; /* Remove default margin */
+}
+@media (max-width: 768px) {
+  body {
+    margin-left:  0rem;
+    display: none;
+  }
+}
+
+@media (max-width: 480px) {
+  body {
+    margin-left:  0rem;
+    display: none;
+  }
+}
+
+.linkedin-container {
+  display: flex;
+  align-items: center; /* Vertically center align the items */
+  
+  margin-top: 20px;
+}
+
+.linkedin-logo img {  
+  width: 40px; /* Adjust the size as needed */
+  height: auto; /* Maintain aspect ratio */
+  transition: transform 0.3s ease;
+  display: flex;
+  justify-content: center;
+  margin-right: 0px;
+  padding: 0px;
+
+}
+
+.linkedin-logo img:hover {
+  transform: scale(1.1); /* Slight zoom effect on hover */
+}
+
+.linkedin-container p{
+  padding: 0px;
+  margin-left: 0px;
+  color: rgba(39, 68, 149, 0.69);
+  font-family: 'SF Pro Display', sans-serif;
+  font-weight: normal;
+  font-size: 24px;
+  opacity: 1;
+}
